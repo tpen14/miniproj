@@ -1,0 +1,54 @@
+form {
+
+    margin: 0;
+
+    display: flex;
+    width: 100%;
+  }
+  
+  .top-layer,
+  .bot-layer {
+    margin-bottom: 20px;
+  }
+  
+  input,
+  textarea {
+    width: 100%; /* 100% width for the fields */
+    padding: 10px;
+    border: 2px solid #00ff00; /* Green border */
+    background-color: #000; /* Black background for input */
+    color: #fff; /* White text for user input */
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none; /* Remove default outline */
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #00cc00; /* Slightly darker green on focus */
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    color: #bbb; /* Light gray for placeholder text */
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00ff00; /* Green button background */
+    border: none;
+    color: #000; /* Black text on the button */
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #00cc00; /* Darker green on hover */
+  }
+  
+  button:focus {
+    outline: none; /* Remove the default focus outline on button */
+  }
+  

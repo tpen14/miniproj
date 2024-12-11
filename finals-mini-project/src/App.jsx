@@ -1,26 +1,40 @@
-
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
-import Header from './Components/Header'
-import { Footer } from './Components/Footer'
-import Home from './Components/home'
-import About from './Components/About'
-import Contact from './Components/Contact'
-import Products from './Components/Products'
-
+import { Home, Contact, Products, NotFound, Product, ComProfile, CompanyRes, Devs,DevPage, Feedback } from './Pages'
+import { Header, Footer, AnimationBG } from './Components'
+import Mission from './Pages/Mission'
 function App() {
+  
   return (
     <>
-    <Header></Header>
-    <main>
-    <Routes>
-    <Route path='/' element = {<Home/>}/>
-    <Route path='/About' element = {<About/>}/>
-    <Route path='/Contact' element = {<Contact/>}/>
-    <Route path='/Products' element = {<Products/>}/>
-    </Routes>
-    </main>
-    <Footer></Footer>
+      <div className="overlay">
+        <div className="scanline-overlay"></div>
+      </div>
+      <Header/>
+      <main>
+        <Routes>
+          <Route path='/' element = {<Home/>}/>
+          <Route path='/*' element = {<NotFound/>}/>
+          <Route path='/Contact' element={<Contact/>}/>
+          <Route path='/Feedback' element={<Feedback/>}/>
+          <Route path='/Devs/*' >
+            <Route index element={<DevPage/>}/>
+            <Route path=':devID' element={<Devs/>}/>
+          </Route>
+          <Route path='/CompanyProfile/*'>
+            <Route index  element={<ComProfile/>}/>
+            <Route path=':resumeID/' element={<CompanyRes/>}/>
+          </Route>
+          <Route path='/Products/*'>
+            <Route index element={<Products/>}/>
+            <Route path=':productID/*' element={<Product/>}/>
+          </Route>
+          <Route path='/Mission-Vision' element={<Mission/>}></Route>
+        </Routes>
+      </main>
+      <Footer/>
+      <AnimationBG/>
+      
     </>
   )
 }
