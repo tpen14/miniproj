@@ -7,19 +7,15 @@ export const Home = () => {
         <div className="hero-text">
           <h1>KeyStaxx</h1>
           <p>Unlock Your Potential, One Keystroke at a Time.</p>
-          <Link><button className="hero-button">Browse Products</button></Link>
+          <Link to='/Products' ><button className="home-button">Browse Products</button></Link>
         </div>
     </div>
-    <div className="about">
+    <div className="about-home">
         <h1>About Us</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem nemo nam, velit quam delectus reprehenderit officia. Iste magnam quisquam, dolore assumenda debitis adipisci minus earum eaque sunt suscipit. Hic enim incidunt esse beatae nobis deserunt quos aspernatur omnis ratione, tempora explicabo fuga repellat dolores. Hic et saepe id a animi!</p>
-        <button className="hero-button">Read More</button>
+        <p>KeyStaxx is a premier artisan keyboard company dedicated to redefining the typing experience through unparalleled craftsmanship and design. We specialize in creating unique, high-quality keyboards that merge functionality with artistic expression, catering to enthusiasts and professionals alike. At KeyStaxx, we are passionate about fostering a vibrant community, celebrating individuality, and delivering personalized products that inspire creativity and elevate every keystroke.</p>
+     <Link to='/Mission-Vision'><button className="hero-button">Read More</button> </Link>
     </div>
-    <div className="review-card">
-      <h2>Reviews</h2>
-        <h4>Rating: *****</h4>
-        <p>Review: Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque excepturi rerum quia ut a. Consectetur sapiente optio non ad eveniet.</p>
-    </div>
+
     </>
   )
 }

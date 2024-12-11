@@ -47,19 +47,19 @@
         "img": "https://raw.githubusercontent.com/egwolk4School/KeyboardImages/main/pfp2.jpg",
         "name": "Stephen Robles",
         "job": "Full-Stack Developer",
-        "email": "alex.smith@example.com",
-        "phone": "(555) 234-5678",
-        "linkedin": "linkedin.com/in/alexsmith",
+        "email": "2016521@s.ubaguio.edu",
+        "phone": "09083258711",
+        "linkedin": "linkedin.com/in/tsumuluvr",
         "summary": "Creative and data-driven marketing professional with expertise in branding, social media management, and content creation. Adept at driving engagement and increasing visibility for niche products in competitive markets.",
         "exp": [
-            {"work": "Marketing Specialist", "duration": "2021 - Present", "workplace": "Artisan Keyboards Co."},
-            {"work": "Digital Marketing Intern", "duration": "2019 - 2021", "workplace": "Tech Trends Media"},
-            {"work": "Social Media Coordinator", "duration": "2018 - 2019", "workplace": "BuzzWorks Agency"}
+            {"work": "Full-Stack Developer", "duration": "2024 - Present", "workplace": "Keystaxx"},
+            {"work": "Front End Development", "duration": "2022", "workplace": "INTRCS1/HUMCOM1"},
+            {"work": "Backend Development", "duration": "2022", "workplace": "PROGIT1/PROGIT"}
         ],
         "educ": [
-            {"school": "Columbia University", "duration": "2018 - 2020", "field": "Master of Arts in Digital Marketing"},
-            {"school": "New York University (NYU)", "duration": "2014 - 2018", "field": "Bachelor of Science in Marketing"},
-            {"school": "Brooklyn Technical High School", "duration": "2010 - 2014", "field": "High School Diploma"}
+            {"school": "University of Baguio", "duration": "2022 - Present", "field": "Bachelor of Science in Computer Science"},
+            {"school": "University of Baguio Senior Science High School", "duration": "2020 - 2022", "field": "Senior High"},
+            {"school": "University of Baguio Science High School", "duration": "2016 - 2020", "field": "Junior High"}
         ],
         "technical-skills": [
             {"skill": "Social Media Management", "percentage": "85"},
@@ -83,6 +83,6 @@
             {"label":"Blogging","icon":"<FaPhotoVideo />"},
             {"label":"Cars","icon":"<FaCarSide />"}
         ],
-        "address": "456 Market Street, New York"
+        "address": "102 Old Site Bakakeng Baguio City."
     }
 ]
